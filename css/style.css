@@ -333,7 +333,64 @@
 
   /* Start Subscribe Section Style */
 
-.subscribe-content{
-  text-align: center;
-}
+  #subscribe{
+    margin-bottom: 100px;
+  }
+  .subscribe-area{
+    background: rgba(255, 0, 0, 0.05);
+    border-radius: 16px;
+    padding: 60px 0;
+  }
+
+  .subscribe-content{
+    text-align: center;
+    padding: 0 200px;
+  }
+
+  .subscribe-content h2{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin: 30px 0 10px 0;
+  }
+  .subscribe-content p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+  }
+  .subscribe-btn{
+    width: 600px;
+    margin: 40px auto auto;
+    display: flex;
+  }
+  .subscribe-btn input{
+    padding: 18px 0;
+    width: 400px;
+    border: none;
+    border-radius: 50px 0 0 50px;
+    outline: none;
+  }
+  .subscribe-btn input[placeholder]{
+    padding-left: 30px;
+    color: rgba(7, 2, 17, 0.30);
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .subscribe-btn button{
+    padding: 18px 0;
+    width: 200px;
+    background-color: #F00;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    border-radius: 0 50px 50px 0;
+    cursor: pointer;
+    margin-left: 0;
+
+  }
 
