@@ -118,6 +118,7 @@
     font-weight: 900;
     line-height: 88px;
     letter-spacing: 7.04px;
+    padding-bottom: 10px;
   }
   .welcome-text p{
     color: rgba(255, 255, 255, 0.80);
@@ -193,10 +194,10 @@
 .comming-soon-area{
     display: flex;
     align-items: center;
-    gap: 80px;
 }
 .comming-soon-text{
   width: 450px;
+  padding-right: 60px;
 }
 .comming-soon-text h4{
   color: #F00;
@@ -221,6 +222,7 @@
   width: 420px;
   border-radius: 30px;
   border-color: #F00;
+  text-align: left;
 }
 .comming-soon-img img{
   border: 15px solid #F00;
@@ -231,7 +233,8 @@
 
 .comming-soon-year{
   width: 350px;
-  margin-top: 50px;
+  margin-top: 70px;
+  padding-left: 80px;
 }
 .comming-soon-year h3{
   color: #F00;
@@ -251,8 +254,86 @@
 
 /* Start Comming Soon Section Style */
 
+#holiday{
+  margin-bottom: 100px;
+}
+
+.holiday-text{
+  text-align: center;
+}
+.holiday-text h4{
+  color: #070211;
+  font-size: 24px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+.holiday-text h2{
+  color: #F00;
+  font-size: 72px;
+  font-weight: 900;
+  margin: 5px 0 20px 0;
+}
+.holiday-text span{
+  color: #070211;
+}
+.holiday-text p{
+  color: rgba(7, 2, 17, 0.60);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+}
+.holiday-descrition{
+  padding: 0 100px;
+}
 
 
 
+/* Start Portfolio Section Style */
 
+  #portfolio{
+    margin-bottom: 100PX;
+  }
+  .portfolio-text{
+    padding-right: 350px;
+  }
+  
+  .portfolio-text h4{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+  }
+  .portfolio-text h2{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin: 5px 0px 10px 0;
+  }
+  .portfolio-text p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+  }
+
+  .portfolio-img{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 35px;
+  }
+  .portfolio-img-item{
+    max-width: 400px;
+  }
+  .portfolio-img-item img{
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Start Subscribe Section Style */
+
+.subscribe-content{
+  text-align: center;
+}
 
