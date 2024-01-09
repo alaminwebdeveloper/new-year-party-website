@@ -456,7 +456,7 @@
     display: flex;
 
   }
-  .footer-top-text address{
+  .footer-top-text p{
     color: #fff;
     font-size: 24px;
     font-weight: 500;
@@ -467,22 +467,21 @@
     
   }
   .footer-info{
-    
+    display: flex;
+    flex-direction: column;
+    align-self: center;
   }
   
   .footer-info a{
-    display: block;
     color: #FFF;
     font-size: 24px;
     font-weight: 500;
     line-height: 40px;
     text-decoration: none;
-    width: 300px;
+    font-family: 'Inter', sans-serif;
   }
   .footer-info img{
     margin-right: 10px;
-    width: 24px;
-
   }
 
   .footer-social-icon{
@@ -513,3 +512,5 @@
     border:none;
     cursor: pointer;
   }
+
+  /* ---------- End CSS ----------- */
