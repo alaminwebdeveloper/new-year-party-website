@@ -184,6 +184,7 @@
     font-size: 16px;
     text-transform: uppercase;
     margin-top: 50px;
+    cursor: pointer;
 }
 
 /* Start Comming Soon Section Style */
@@ -286,6 +287,53 @@
   padding: 0 100px;
 }
 
+.holiday-img{
+  display: flex;
+  justify-items: end;
+  position: relative;
+}
+.holiday-img-left img{
+  position: absolute;
+  left: 0;
+  bottom: -700px;
+}
+.holiday-img-right h2{
+  position: absolute;
+  background-color: #F00;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 40px;
+  right: 326px;
+  top: 150px;
+  z-index: 9;
+  color: #FFF;
+  font-size: 24.338px;
+  font-weight: 900;
+  transform: rotate(-34.212deg);
+  border: 8px solid #fff;
+  font-family: 'Inter', sans-serif;
+}
+.holiday-img-right span{
+  display: block;
+  color: #FFF;
+  font-size: 60px;
+  font-weight: 700;
+}
+.holiday-img-right img{
+  position: absolute;
+  right: 0;
+  bottom: -480px;
+}
+
+.holiday-img-bottom{
+  margin-top: 480px;
+}
+.holiday-img-bottom img{
+  width: 100%;
+}
+
 
 
 /* Start Portfolio Section Style */
@@ -326,9 +374,14 @@
   .portfolio-img-item{
     max-width: 400px;
   }
+ 
   .portfolio-img-item img{
     width: 100%;
     height: 100%;
+  }
+  .portfolio-img-item:hover img{
+    background: rgba(255, 0, 0, 0.407);
+
   }
 
   /* Start Subscribe Section Style */
@@ -394,3 +447,71 @@
 
   }
 
+  /* Start Footer Section Style */
+
+  #footer{
+    background-color: #070211;
+    padding: 100px 0;
+  }
+
+  .footer-top-text{
+    display: flex;
+
+  }
+  .footer-top-text address{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    font-family: 'Inter', sans-serif;
+    width: 900px;
+    padding-right: 500px;
+    
+  }
+  .footer-info{
+    
+  }
+  
+  .footer-info a{
+    display: block;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    text-decoration: none;
+    width: 300px;
+  }
+  .footer-info img{
+    margin-right: 10px;
+    width: 24px;
+
+  }
+
+  .footer-social-icon{
+    margin: 80px 0;
+    text-align: center;
+  }
+  .footer-social-icon a{
+    margin-left: 20px;
+  }
+  .footer-social-icon a:first-child{
+    margin-left: 0;
+  }
+
+  .footer-bottom-text{
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-bottom-text p{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .footer-bottom-text button{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    background: none;
+    border:none;
+    cursor: pointer;
+  }
